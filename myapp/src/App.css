@@ -1,0 +1,63 @@
+.body{
+ height:1000px;
+ width:90%;
+ margin:auto;
+
+}
+.main{
+    width:200px;
+    height:100px;
+    background-image:url(./images/logo.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+.navItem{
+    display:flex;
+    justify-content:space-between;
+
+}
+.img{
+    margin-left:10px;
+    width:60px;
+}
+.navbar{
+    padding-right:30px;
+
+}
+.footer{
+    background-color: #FFF;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    margin:auto;
+}
+.reset-btn{
+    margin-left:35px;
+
+}
+.card{
+    width: 17.5rem;
+    height:400px;
+    background:gray;
+    margin:10px 15px;
+}
+.card-img-top{
+   height:220px;
+}
+.togel-btn{
+    display:flex;
+    justify-content:center;
+}
+.main-content{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:column;
+    padding:15px;
+    margin:10px;
+}
+.greeting{
+    margin-left:80px;
+}
